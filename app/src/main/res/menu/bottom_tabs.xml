@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/All_Tab"
+        android:icon="@drawable/ic_all_inclusive_black_24dp"
+        android:title="All" />
+
+    <item
+        android:id="@+id/Top15_Tab"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="Top 15" />
+
+    <item
+        android:id="@+id/Search_Tab"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search" />
+
+</menu>
