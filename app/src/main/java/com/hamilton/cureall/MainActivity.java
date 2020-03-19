@@ -1,6 +1,7 @@
 package com.hamilton.cureall;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
@@ -18,29 +19,15 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Top15NoteViewModel top15NoteViewModel;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
 
-        // MIGHT HAVE TO CHANGE
-        top15NoteViewModel = ViewModelProviders.of(this).get(Top15NoteViewModel.class);
+          BottomNavigationView bottomTabs = findViewById(R.id.bottom_tabs);
+          bottomTabs.setOnNavigationItemSelectedListener(tabListener);
 
-        top15NoteViewModel.getTop15AllNotes().observe(this, new Observer<List<Top15Note>>() {
-            @Override
-            public void onChanged(List<Top15Note> top15Notes) {
-                // update RecyclerView
-                Toast.makeText(MainActivity.this, "onChanged", Toast.LENGTH_SHORT).show();
-            }
-        });
-        // MIGHT HAVE TO CHANGE
-
-        BottomNavigationView bottomTabs = findViewById(R.id.bottom_tabs);
-        bottomTabs.setOnNavigationItemSelectedListener(tabListener);
-
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+          getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                 new AllFragment()).commit();
     }
 

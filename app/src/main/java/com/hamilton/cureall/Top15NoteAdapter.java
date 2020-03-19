@@ -25,11 +25,19 @@ public class Top15NoteAdapter extends RecyclerView.Adapter<Top15NoteAdapter.Top1
     @Override
     public void onBindViewHolder(@NonNull Top15NoteHolder holder, int position) {
         Top15Note currentNote = notes.get(position);
+        holder.top15TextViewTitle.setText(currentNote.getTitle());
+        holder.top15TextViewPriority.setText(String.valueOf(currentNote.getPriority()));
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+
+        return notes.size();
+    }
+
+    public void top15SetNotes(List<Top15Note> notes) {
+        this.notes = notes;
+        notifyDataSetChanged();
     }
 
     class Top15NoteHolder extends RecyclerView.ViewHolder {
