@@ -2,7 +2,6 @@ package com.hamilton.cureall;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
-import androidx.lifecycle.LiveData;
 
 @Entity(tableName = "note_table")
 public class Top15Note {

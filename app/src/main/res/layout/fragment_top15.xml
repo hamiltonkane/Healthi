@@ -4,7 +4,7 @@
     android:id="@+id/scroll_top15"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light"
+    android:background="@android:color/holo_blue_bright"
     android:clickable="true"
     android:clipChildren="true">
 
@@ -12,6 +12,6 @@
         android:id="@+id/recycler_view_top15"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/top15_note_item"/>
+        tools:listitem="@layout/top15_note_item" />
 
 </RelativeLayout>

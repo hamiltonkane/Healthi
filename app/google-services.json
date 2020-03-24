@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "660971403157",
+    "firebase_url": "https://cureall-27cae.firebaseio.com",
+    "project_id": "cureall-27cae",
+    "storage_bucket": "cureall-27cae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660971403157:android:57a96580745d68b904689c",
+        "android_client_info": {
+          "package_name": "com.hamilton.cureall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660971403157-mhunbbgdbhvlub5kiidqiur1sbhfm5j9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hamilton.cureall",
+            "certificate_hash": "7c6cad081dbd832cf11eb0a1b3c96b2a2ecde479"
+          }
+        },
+        {
+          "client_id": "660971403157-l609sfqcgkpnlikit3iea7a3r32on4jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAjETw5AF1IF4DtaLn6lqVT8upMuTIbkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660971403157-l609sfqcgkpnlikit3iea7a3r32on4jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

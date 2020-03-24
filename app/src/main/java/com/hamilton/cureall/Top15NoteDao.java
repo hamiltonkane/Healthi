@@ -24,6 +24,6 @@ public interface Top15NoteDao {
     @Query("DELETE FROM note_table")
     void deleteAllNotes();
 
-    @Query("SELECT * FROM note_table ORDER BY priority DESC")
+    @Query("SELECT * FROM note_table")
     LiveData<List<Top15Note>> top15GetAllNotes();
 }
