@@ -1,4 +1,4 @@
-package com.hamilton.cureall;
+package com.hamilton.healthi;
 
 import org.junit.Test;
 

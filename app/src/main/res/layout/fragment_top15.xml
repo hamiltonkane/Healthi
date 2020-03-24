@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_bright"
     android:clickable="true"
-    android:clipChildren="true">
+    android:clipChildren="true"
+    android:focusable="true">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_top15"

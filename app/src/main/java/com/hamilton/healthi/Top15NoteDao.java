@@ -1,4 +1,4 @@
-package com.hamilton.cureall;
+package com.hamilton.healthi;
 
 import androidx.room.Dao;
 import androidx.room.Delete;

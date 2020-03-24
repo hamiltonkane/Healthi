@@ -1,4 +1,4 @@
-package com.hamilton.cureall;
+package com.hamilton.healthi;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
