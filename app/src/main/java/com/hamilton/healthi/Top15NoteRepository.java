@@ -46,7 +46,7 @@ public class Top15NoteRepository {
 
         @Override
         protected Void doInBackground(Top15Note... top15Notes) {
-            top15NoteDao.insert(top15Notes[0]);
+            top15NoteDao.top15Insert(top15Notes[0]);
             return null;
         }
     }
@@ -60,7 +60,7 @@ public class Top15NoteRepository {
 
         @Override
         protected Void doInBackground(Top15Note... top15Notes) {
-            top15NoteDao.update(top15Notes[0]);
+            top15NoteDao.top15Update(top15Notes[0]);
             return null;
         }
     }
@@ -74,7 +74,7 @@ public class Top15NoteRepository {
 
         @Override
         protected Void doInBackground(Top15Note... top15Notes) {
-            top15NoteDao.delete(top15Notes[0]);
+            top15NoteDao.top15Delete(top15Notes[0]);
             return null;
         }
     }
@@ -88,7 +88,7 @@ public class Top15NoteRepository {
 
         @Override
         protected Void doInBackground(Void... voids) {
-            top15NoteDao.deleteAllNotes();
+            top15NoteDao.top15DeleteAllNotes();
             return null;
         }
     }

@@ -44,21 +44,21 @@ public abstract class Top15NoteDatabase extends RoomDatabase {
 
         @Override
         protected Void doInBackground(Void... voids) {
-            top15NoteDao.insert(new Top15Note("Coronary Heart-Disease", 1));
-            top15NoteDao.insert(new Top15Note("Hypertension (High Blood Pressure)", 2));
-            top15NoteDao.insert(new Top15Note("Cold", 3));
-            top15NoteDao.insert(new Top15Note("Flu", 4));
-            top15NoteDao.insert(new Top15Note("Allergies", 5));
-            top15NoteDao.insert(new Top15Note("Depression", 6));
-            top15NoteDao.insert(new Top15Note("Cancer", 7));
-            top15NoteDao.insert(new Top15Note("Diabetes", 8));
-            top15NoteDao.insert(new Top15Note("Strep Throat", 9));
-            top15NoteDao.insert(new Top15Note("Alzheimer's", 10));
-            top15NoteDao.insert(new Top15Note("Pneumonia", 11));
-            top15NoteDao.insert(new Top15Note("Bronchitis", 12));
-            top15NoteDao.insert(new Top15Note("Tuberculosis", 13));
-            top15NoteDao.insert(new Top15Note("Chronic Obstructive Pulmonary Disease", 14));
-            top15NoteDao.insert(new Top15Note("Cirrhosis", 15));
+            top15NoteDao.top15Insert(new Top15Note("Coronary Heart-Disease", 1));
+            top15NoteDao.top15Insert(new Top15Note("Hypertension (High Blood Pressure)", 2));
+            top15NoteDao.top15Insert(new Top15Note("Cold", 3));
+            top15NoteDao.top15Insert(new Top15Note("Flu", 4));
+            top15NoteDao.top15Insert(new Top15Note("Allergies", 5));
+            top15NoteDao.top15Insert(new Top15Note("Depression", 6));
+            top15NoteDao.top15Insert(new Top15Note("Cancer", 7));
+            top15NoteDao.top15Insert(new Top15Note("Diabetes", 8));
+            top15NoteDao.top15Insert(new Top15Note("Strep Throat", 9));
+            top15NoteDao.top15Insert(new Top15Note("Alzheimer's", 10));
+            top15NoteDao.top15Insert(new Top15Note("Pneumonia", 11));
+            top15NoteDao.top15Insert(new Top15Note("Bronchitis", 12));
+            top15NoteDao.top15Insert(new Top15Note("Tuberculosis", 13));
+            top15NoteDao.top15Insert(new Top15Note("Chronic Obstructive Pulmonary Disease", 14));
+            top15NoteDao.top15Insert(new Top15Note("Cirrhosis", 15));
 
             return null;
         }

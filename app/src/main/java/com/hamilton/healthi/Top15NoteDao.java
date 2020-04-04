@@ -13,17 +13,17 @@ import java.util.List;
 public interface Top15NoteDao {
 
     @Insert
-    void insert(Top15Note note);
+    void top15Insert(Top15Note note);
 
     @Update
-    void update(Top15Note note);
+    void top15Update(Top15Note note);
 
     @Delete
-    void delete(Top15Note note);
+    void top15Delete(Top15Note note);
 
-    @Query("DELETE FROM note_table")
-    void deleteAllNotes();
+    @Query("DELETE FROM top15_note_table")
+    void top15DeleteAllNotes();
 
-    @Query("SELECT * FROM note_table")
+    @Query("SELECT * FROM top15_note_table")
     LiveData<List<Top15Note>> top15GetAllNotes();
 }

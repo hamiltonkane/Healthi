@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "660971403157",
-    "firebase_url": "https://cureall-27cae.firebaseio.com",
-    "project_id": "cureall-27cae",
-    "storage_bucket": "cureall-27cae.appspot.com"
+    "project_number": "264325588094",
+    "firebase_url": "https://healthi-50201.firebaseio.com",
+    "project_id": "healthi-50201",
+    "storage_bucket": "healthi-50201.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:660971403157:android:57a96580745d68b904689c",
+        "mobilesdk_app_id": "1:264325588094:android:a45efc0851425cf45c242f",
         "android_client_info": {
           "package_name": "com.hamilton.cureall"
         }
       },
       "oauth_client": [
         {
-          "client_id": "660971403157-mhunbbgdbhvlub5kiidqiur1sbhfm5j9.apps.googleusercontent.com",
+          "client_id": "264325588094-73vluimlnoesbu1kh3r3olsi7ojamjjc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.hamilton.cureall",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "660971403157-l609sfqcgkpnlikit3iea7a3r32on4jc.apps.googleusercontent.com",
+          "client_id": "264325588094-1p4j4nocerd3ls9p8cj9kk8ub7nt772c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDAjETw5AF1IF4DtaLn6lqVT8upMuTIbkY"
+          "current_key": "AIzaSyCR47ahSLgFZe7WTsnQLYssGI8izlUfL6c"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "660971403157-l609sfqcgkpnlikit3iea7a3r32on4jc.apps.googleusercontent.com",
+              "client_id": "264325588094-1p4j4nocerd3ls9p8cj9kk8ub7nt772c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
