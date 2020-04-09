@@ -30,7 +30,6 @@ public class AllNoteAdapter extends RecyclerView.Adapter<AllNoteAdapter.AllNoteH
 
     @Override
     public int getItemCount() {
-
         return notes.size();
     }
 

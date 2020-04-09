@@ -27,6 +27,7 @@ public class Top15NoteAdapter extends RecyclerView.Adapter<Top15NoteAdapter.Top1
         Top15Note currentNote = notes.get(position);
         holder.top15TextViewTitle.setText(currentNote.getTitle());
         holder.top15TextViewPriority.setText(String.valueOf(currentNote.getPriority()));
+        holder.top15TextViewDescription.setText(currentNote.getDescription());
     }
 
     @Override
@@ -43,11 +44,13 @@ public class Top15NoteAdapter extends RecyclerView.Adapter<Top15NoteAdapter.Top1
     class Top15NoteHolder extends RecyclerView.ViewHolder {
         private TextView top15TextViewTitle;
         private TextView top15TextViewPriority;
+        private TextView top15TextViewDescription;
 
         public Top15NoteHolder(@NonNull View itemView) {
             super(itemView);
             top15TextViewTitle = itemView.findViewById(R.id.text_view_title_top15);
             top15TextViewPriority = itemView.findViewById(R.id.text_view_priority_top15);
+            top15TextViewDescription = itemView.findViewById(R.id.text_view_description_top15);
         }
     }
 }

@@ -13,9 +13,12 @@ public class Top15Note {
 
     private int priority;
 
-    public Top15Note(String title, int priority) {
+    private String description;
+
+    public Top15Note(String title, int priority, String description) {
         this.title = title;
         this.priority = priority;
+        this.description = description;
     }
 
     public void setId(int id) {
@@ -33,4 +36,6 @@ public class Top15Note {
     public int getPriority() {
         return priority;
     }
+
+    public String getDescription() { return description; }
 }
