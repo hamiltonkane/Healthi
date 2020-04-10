@@ -11,8 +11,11 @@ public class AllNote {
 
     private String title;
 
-    public AllNote(String title) {
+    private String description;
+
+    public AllNote(String title, String description) {
         this.title = title;
+        this.description = description;
     }
 
     public void setId(int id) {
@@ -26,4 +29,6 @@ public class AllNote {
     public String getTitle() {
         return title;
     }
+
+    public String getDescription() { return description; }
 }

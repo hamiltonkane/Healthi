@@ -26,6 +26,7 @@ public class AllNoteAdapter extends RecyclerView.Adapter<AllNoteAdapter.AllNoteH
     public void onBindViewHolder(@NonNull AllNoteHolder holder, int position) {
         AllNote currentNote = notes.get(position);
         holder.allTextViewTitle.setText(currentNote.getTitle());
+        holder.allTextViewDescription.setText(currentNote.getDescription());
     }
 
     @Override
@@ -40,10 +41,12 @@ public class AllNoteAdapter extends RecyclerView.Adapter<AllNoteAdapter.AllNoteH
 
     class AllNoteHolder extends RecyclerView.ViewHolder {
         private TextView allTextViewTitle;
+        private TextView allTextViewDescription;
 
         public AllNoteHolder(@NonNull View itemView) {
             super(itemView);
             allTextViewTitle = itemView.findViewById(R.id.text_view_title_all);
+            allTextViewDescription = itemView.findViewById(R.id.text_view_description_all);
         }
     }
 }
