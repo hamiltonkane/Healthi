@@ -62,7 +62,7 @@ public abstract class AllNoteDatabase extends RoomDatabase {
             allNoteDao.allInsert(new AllNote("Chronic Obstructive Pulmonary Disease", "Description of Illness"));
             allNoteDao.allInsert(new AllNote("Cirrhosis", "Description of Illness"));
             allNoteDao.allInsert(new AllNote("Cold", "Description of Illness"));
-            allNoteDao.allInsert(new AllNote("Coronary Heart-Disease", "Description of Illness"));
+            allNoteDao.allInsert(new AllNote("Coronary Artery Disease", "Description of Illness"));
             allNoteDao.allInsert(new AllNote("Coronavirus", "Description of Illness"));
             allNoteDao.allInsert(new AllNote("Dandruff", "Description of Illness"));
             allNoteDao.allInsert(new AllNote("Dementia", "Description of Illness"));
